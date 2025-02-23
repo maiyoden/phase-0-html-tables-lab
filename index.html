@@ -1,12 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML Tables</title>
-  </head>
-  <body>
-    <!-- Write your HTML here -->
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities by Population</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Largest Cities in the U.S. by Population (2017 Estimate)</h1>
+    <table>
+        <!-- Header Row -->
+        <tr>
+            <th>City</th>
+            <th>State</th>
+            <th>2017 estimate</th> <!-- Changed to lowercase -->
+        </tr>
+        <!-- Data Rows -->
+        <tr>
+            <td>New York</td>
+            <td>New York</td>
+            <td>8,622,698</td>
+        </tr>
+        <tr>
+            <td>Los Angeles</td>
+            <td>California</td>
+            <td>3,999,759</td>
+        </tr>
+        <tr>
+            <td>Chicago</td>
+            <td>Illinois</td>
+            <td>2,716,450</td> <!-- Updated population -->
+        </tr>
+        <tr>
+            <td>Houston</td>
+            <td>Texas</td>
+            <td>2,312,717</td> <!-- Updated population -->
+        </tr>
+    </table>
+</body>
 </html>
